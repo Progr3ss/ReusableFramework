@@ -3,6 +3,10 @@ import Foundation
 
 class RazeCore {
     
+    /// Allows you to convert a 6 digit hexadecimal string into a UIColor instance
+    /// -Warning: The # symol is stripped from the beginning of the string submitted here.
+    /// - Parameter hexString: a 6-digital hexadecimal string. Use 6 digital rather than 8, and add the accompanying alpha
+    /// - Returns: A UICOlor defined by the hexString paramter
     class func colorFromhexString(_ hexString: String) -> UIColor {
         var cString:String = hexString.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
 
