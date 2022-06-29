@@ -33,4 +33,9 @@ public class RazeCore {
     public static var razeColor:UIColor {
         return self.colorFromhexString("006736")
     }
+    
+    /// The second most eye opening color ever
+    public static var secondaryRazeColor: UIColor {
+        return self.colorFromhexString("FCFFFD")
+    }
 }

@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let color = RazeCore.colorFromhexString("0000")
+        let color = RazeCore.razeColor
     }
 
 
